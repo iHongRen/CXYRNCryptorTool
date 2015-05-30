@@ -1,0 +1,464 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		7421F9BF1B184508007D3732 /* CXYAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 7421F9BE1B184508007D3732 /* CXYAppDelegate.m */; };
+		7421F9C11B184508007D3732 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 7421F9C01B184508007D3732 /* main.m */; };
+		7421F9C41B184508007D3732 /* CXYViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7421F9C31B184508007D3732 /* CXYViewController.m */; };
+		7421F9C61B184508007D3732 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7421F9C51B184508007D3732 /* Images.xcassets */; };
+		7421F9C91B184508007D3732 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7421F9C71B184508007D3732 /* Main.storyboard */; };
+		7421F9D51B184509007D3732 /* CXYRNCryptorTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 7421F9D41B184509007D3732 /* CXYRNCryptorTests.m */; };
+		7421F9DF1B184636007D3732 /* Security.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7421F9DE1B184636007D3732 /* Security.framework */; };
+		7421FA321B18C0B2007D3732 /* RNCryptor.m in Sources */ = {isa = PBXBuildFile; fileRef = 7421FA2B1B18C0B2007D3732 /* RNCryptor.m */; };
+		7421FA331B18C0B2007D3732 /* RNCryptorEngine.m in Sources */ = {isa = PBXBuildFile; fileRef = 7421FA2D1B18C0B2007D3732 /* RNCryptorEngine.m */; };
+		7421FA341B18C0B2007D3732 /* RNDecryptor.m in Sources */ = {isa = PBXBuildFile; fileRef = 7421FA2F1B18C0B2007D3732 /* RNDecryptor.m */; };
+		7421FA351B18C0B2007D3732 /* RNEncryptor.m in Sources */ = {isa = PBXBuildFile; fileRef = 7421FA311B18C0B2007D3732 /* RNEncryptor.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		7421F9CF1B184509007D3732 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 7421F9B01B184508007D3732 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 7421F9B71B184508007D3732;
+			remoteInfo = CXYRNCryptor;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		7421F9B81B184508007D3732 /* CXYRNCryptor.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CXYRNCryptor.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		7421F9BC1B184508007D3732 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7421F9BD1B184508007D3732 /* CXYAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CXYAppDelegate.h; sourceTree = "<group>"; };
+		7421F9BE1B184508007D3732 /* CXYAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CXYAppDelegate.m; sourceTree = "<group>"; };
+		7421F9C01B184508007D3732 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		7421F9C21B184508007D3732 /* CXYViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CXYViewController.h; sourceTree = "<group>"; };
+		7421F9C31B184508007D3732 /* CXYViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CXYViewController.m; sourceTree = "<group>"; };
+		7421F9C51B184508007D3732 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		7421F9C81B184508007D3732 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		7421F9CE1B184509007D3732 /* CXYRNCryptorTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CXYRNCryptorTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		7421F9D31B184509007D3732 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7421F9D41B184509007D3732 /* CXYRNCryptorTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CXYRNCryptorTests.m; sourceTree = "<group>"; };
+		7421F9DE1B184636007D3732 /* Security.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Security.framework; path = System/Library/Frameworks/Security.framework; sourceTree = SDKROOT; };
+		7421FA271B18C0B2007D3732 /* RNCryptor+Private.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "RNCryptor+Private.h"; sourceTree = "<group>"; };
+		7421FA281B18C0B2007D3732 /* RNCryptor+Swift.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "RNCryptor+Swift.h"; sourceTree = "<group>"; };
+		7421FA291B18C0B2007D3732 /* RNCryptor-Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "RNCryptor-Prefix.pch"; sourceTree = "<group>"; };
+		7421FA2A1B18C0B2007D3732 /* RNCryptor.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RNCryptor.h; sourceTree = "<group>"; };
+		7421FA2B1B18C0B2007D3732 /* RNCryptor.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RNCryptor.m; sourceTree = "<group>"; };
+		7421FA2C1B18C0B2007D3732 /* RNCryptorEngine.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RNCryptorEngine.h; sourceTree = "<group>"; };
+		7421FA2D1B18C0B2007D3732 /* RNCryptorEngine.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RNCryptorEngine.m; sourceTree = "<group>"; };
+		7421FA2E1B18C0B2007D3732 /* RNDecryptor.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RNDecryptor.h; sourceTree = "<group>"; };
+		7421FA2F1B18C0B2007D3732 /* RNDecryptor.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RNDecryptor.m; sourceTree = "<group>"; };
+		7421FA301B18C0B2007D3732 /* RNEncryptor.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RNEncryptor.h; sourceTree = "<group>"; };
+		7421FA311B18C0B2007D3732 /* RNEncryptor.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RNEncryptor.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		7421F9B51B184508007D3732 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7421F9DF1B184636007D3732 /* Security.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7421F9CB1B184509007D3732 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		7421F9AF1B184508007D3732 = {
+			isa = PBXGroup;
+			children = (
+				7421F9DE1B184636007D3732 /* Security.framework */,
+				7421F9BA1B184508007D3732 /* CXYRNCryptor */,
+				7421F9D11B184509007D3732 /* CXYRNCryptorTests */,
+				7421F9B91B184508007D3732 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		7421F9B91B184508007D3732 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				7421F9B81B184508007D3732 /* CXYRNCryptor.app */,
+				7421F9CE1B184509007D3732 /* CXYRNCryptorTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		7421F9BA1B184508007D3732 /* CXYRNCryptor */ = {
+			isa = PBXGroup;
+			children = (
+				7421FA261B18C0B2007D3732 /* RNCryptor */,
+				7421F9BD1B184508007D3732 /* CXYAppDelegate.h */,
+				7421F9BE1B184508007D3732 /* CXYAppDelegate.m */,
+				7421F9C21B184508007D3732 /* CXYViewController.h */,
+				7421F9C31B184508007D3732 /* CXYViewController.m */,
+				7421F9C51B184508007D3732 /* Images.xcassets */,
+				7421F9C71B184508007D3732 /* Main.storyboard */,
+				7421F9BB1B184508007D3732 /* Supporting Files */,
+			);
+			path = CXYRNCryptor;
+			sourceTree = "<group>";
+		};
+		7421F9BB1B184508007D3732 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				7421F9BC1B184508007D3732 /* Info.plist */,
+				7421F9C01B184508007D3732 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		7421F9D11B184509007D3732 /* CXYRNCryptorTests */ = {
+			isa = PBXGroup;
+			children = (
+				7421F9D41B184509007D3732 /* CXYRNCryptorTests.m */,
+				7421F9D21B184509007D3732 /* Supporting Files */,
+			);
+			path = CXYRNCryptorTests;
+			sourceTree = "<group>";
+		};
+		7421F9D21B184509007D3732 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				7421F9D31B184509007D3732 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		7421FA261B18C0B2007D3732 /* RNCryptor */ = {
+			isa = PBXGroup;
+			children = (
+				7421FA271B18C0B2007D3732 /* RNCryptor+Private.h */,
+				7421FA281B18C0B2007D3732 /* RNCryptor+Swift.h */,
+				7421FA291B18C0B2007D3732 /* RNCryptor-Prefix.pch */,
+				7421FA2A1B18C0B2007D3732 /* RNCryptor.h */,
+				7421FA2B1B18C0B2007D3732 /* RNCryptor.m */,
+				7421FA2C1B18C0B2007D3732 /* RNCryptorEngine.h */,
+				7421FA2D1B18C0B2007D3732 /* RNCryptorEngine.m */,
+				7421FA2E1B18C0B2007D3732 /* RNDecryptor.h */,
+				7421FA2F1B18C0B2007D3732 /* RNDecryptor.m */,
+				7421FA301B18C0B2007D3732 /* RNEncryptor.h */,
+				7421FA311B18C0B2007D3732 /* RNEncryptor.m */,
+			);
+			path = RNCryptor;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		7421F9B71B184508007D3732 /* CXYRNCryptor */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7421F9D81B184509007D3732 /* Build configuration list for PBXNativeTarget "CXYRNCryptor" */;
+			buildPhases = (
+				7421F9B41B184508007D3732 /* Sources */,
+				7421F9B51B184508007D3732 /* Frameworks */,
+				7421F9B61B184508007D3732 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = CXYRNCryptor;
+			productName = CXYRNCryptor;
+			productReference = 7421F9B81B184508007D3732 /* CXYRNCryptor.app */;
+			productType = "com.apple.product-type.application";
+		};
+		7421F9CD1B184509007D3732 /* CXYRNCryptorTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7421F9DB1B184509007D3732 /* Build configuration list for PBXNativeTarget "CXYRNCryptorTests" */;
+			buildPhases = (
+				7421F9CA1B184509007D3732 /* Sources */,
+				7421F9CB1B184509007D3732 /* Frameworks */,
+				7421F9CC1B184509007D3732 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				7421F9D01B184509007D3732 /* PBXTargetDependency */,
+			);
+			name = CXYRNCryptorTests;
+			productName = CXYRNCryptorTests;
+			productReference = 7421F9CE1B184509007D3732 /* CXYRNCryptorTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		7421F9B01B184508007D3732 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0630;
+				ORGANIZATIONNAME = "___CHEN___";
+				TargetAttributes = {
+					7421F9B71B184508007D3732 = {
+						CreatedOnToolsVersion = 6.3.2;
+					};
+					7421F9CD1B184509007D3732 = {
+						CreatedOnToolsVersion = 6.3.2;
+						TestTargetID = 7421F9B71B184508007D3732;
+					};
+				};
+			};
+			buildConfigurationList = 7421F9B31B184508007D3732 /* Build configuration list for PBXProject "CXYRNCryptor" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 7421F9AF1B184508007D3732;
+			productRefGroup = 7421F9B91B184508007D3732 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				7421F9B71B184508007D3732 /* CXYRNCryptor */,
+				7421F9CD1B184509007D3732 /* CXYRNCryptorTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		7421F9B61B184508007D3732 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7421F9C61B184508007D3732 /* Images.xcassets in Resources */,
+				7421F9C91B184508007D3732 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7421F9CC1B184509007D3732 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		7421F9B41B184508007D3732 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7421FA351B18C0B2007D3732 /* RNEncryptor.m in Sources */,
+				7421F9C41B184508007D3732 /* CXYViewController.m in Sources */,
+				7421FA321B18C0B2007D3732 /* RNCryptor.m in Sources */,
+				7421F9C11B184508007D3732 /* main.m in Sources */,
+				7421FA331B18C0B2007D3732 /* RNCryptorEngine.m in Sources */,
+				7421FA341B18C0B2007D3732 /* RNDecryptor.m in Sources */,
+				7421F9BF1B184508007D3732 /* CXYAppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7421F9CA1B184509007D3732 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7421F9D51B184509007D3732 /* CXYRNCryptorTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		7421F9D01B184509007D3732 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 7421F9B71B184508007D3732 /* CXYRNCryptor */;
+			targetProxy = 7421F9CF1B184509007D3732 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		7421F9C71B184508007D3732 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				7421F9C81B184508007D3732 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		7421F9D61B184509007D3732 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.10;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		7421F9D71B184509007D3732 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.10;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		7421F9D91B184509007D3732 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = CXYRNCryptor/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		7421F9DA1B184509007D3732 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = CXYRNCryptor/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		7421F9DC1B184509007D3732 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				COMBINE_HIDPI_IMAGES = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = CXYRNCryptorTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/CXYRNCryptor.app/Contents/MacOS/CXYRNCryptor";
+			};
+			name = Debug;
+		};
+		7421F9DD1B184509007D3732 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				COMBINE_HIDPI_IMAGES = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = CXYRNCryptorTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/CXYRNCryptor.app/Contents/MacOS/CXYRNCryptor";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		7421F9B31B184508007D3732 /* Build configuration list for PBXProject "CXYRNCryptor" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7421F9D61B184509007D3732 /* Debug */,
+				7421F9D71B184509007D3732 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		7421F9D81B184509007D3732 /* Build configuration list for PBXNativeTarget "CXYRNCryptor" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7421F9D91B184509007D3732 /* Debug */,
+				7421F9DA1B184509007D3732 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		7421F9DB1B184509007D3732 /* Build configuration list for PBXNativeTarget "CXYRNCryptorTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7421F9DC1B184509007D3732 /* Debug */,
+				7421F9DD1B184509007D3732 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 7421F9B01B184508007D3732 /* Project object */;
+}
